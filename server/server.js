@@ -16,7 +16,7 @@ mongoose
     useUnifiedTopology: true,
   })
   .then((result) => {
-    app.listen(3000, () => {
+    app.listen(8080, () => {
       console.log("Server Connected");
     });
     console.log("DB Connected");
