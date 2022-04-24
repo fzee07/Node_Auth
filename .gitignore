@@ -1,7 +1,8 @@
 #Dependecies
 node_modules
 
+#just_useless
+.vscode
+
 #Production
 .env
-
-.vscode
