@@ -6,7 +6,7 @@ router.get("/login", (req, res) => {
   console.log(email, password);
   res.status(200).json({
     success: true,
-    data: "Log in Please",
+    data: "Login Page",
   });
 });
 
